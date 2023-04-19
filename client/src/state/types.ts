@@ -43,7 +43,17 @@ export interface GetProductsResponse {
     price: number;
     expense: number;
     transactions: Array<string>;
-    expensesByCategory: ExpensesByCategory;
+    createdAt: string;
+    updatedAt: string;
+}
+
+export interface GetTransactionResponse {
+    id: string;
+    _id: string;
+    __v: number;
+    buyer: string;
+    amount: number;
+    productIds: Array<string>;
     createdAt: string;
     updatedAt: string;
 }
