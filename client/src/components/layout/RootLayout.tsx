@@ -20,17 +20,22 @@ const RootLayout = () => {
     </header>
     <main
     style={{
-        minHeight: 'calc(100vh - 100px)',
         padding: '0 2rem',
     }}
     >
         <Outlet />
     </main>
-    <footer>
+    <footer
+    style={{
+        padding: '1rem 2rem',
+        backgroundColor: palette.grey[200],
+        marginTop: '2rem',
+    }}
+    >
         <Typography 
         variant='body2' 
         align='center' 
-        color={palette.grey[500]} 
+        color={palette.grey[800]} 
         component='p'
         >
             &copy; {new Date().getFullYear()} - All rights reserved

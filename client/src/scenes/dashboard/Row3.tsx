@@ -231,11 +231,6 @@ const Row3 = () => {
             totam explicabo praesentium!
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
             Molestiae quod voluptates excepturi suscipit, minima minus 
-            unde libero tenetur totam exercitationem quidem neque est 
-            reiciendis dolor modi. Asperiores amet obcaecati deleniti 
-            cum quos assumenda earum modi eum! Pariatur maiores molestias 
-            recusandae voluptate quasi quod blanditiis debitis dolor facilis,
-             adipisci quia laboriosam.
           </Typography>
         </DashboardBox>
     </>
