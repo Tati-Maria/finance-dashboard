@@ -21,6 +21,7 @@ const RootLayout = () => {
     <main
     style={{
         padding: '0 2rem',
+        minHeight: 'calc(100vh - 10rem)',
     }}
     >
         <Outlet />

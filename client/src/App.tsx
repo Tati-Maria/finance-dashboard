@@ -1,13 +1,11 @@
-import { useMemo } from "react"
-import { Box } from "@mui/material"
-import { CssBaseline, ThemeProvider } from "@mui/material"
-import {createTheme} from "@mui/material/styles"
+import { useMemo } from "react";
+import { CssBaseline, ThemeProvider } from "@mui/material";
+import {createTheme} from "@mui/material/styles";
 import { themeSettings } from "./theme";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import RootLayout from "@/components/layout/RootLayout";
 import Dashboard from "@/scenes/dashboard";
 import Predictions from "./scenes/predictions";
-import Home from "@/scenes/home";
 
 const router = createBrowserRouter([
   {
@@ -16,10 +14,6 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />
-      },
-      {
-        path: "/dashboard",
         element: <Dashboard />
       },
       {

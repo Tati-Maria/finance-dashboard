@@ -20,15 +20,17 @@ const Navbar = (props: Props) => {
         <FlexBetween
         gap="0.75rem"
         >
-            <LineAxisIcon
-            sx={{fontSize: '28px',}} 
-            />
-            <Typography
-            variant="h4"
-            fontSize="16px"
-            >
-                Finance
-            </Typography>
+            <Link to={'/'} className="logo">
+                <LineAxisIcon
+                sx={{fontSize: '28px',}} 
+                />
+                <Typography
+                variant="h4"
+                fontSize="16px"
+                >
+                    Finance
+                </Typography>
+            </Link>
         </FlexBetween>
         {/* Links */}
         <FlexBetween
@@ -38,7 +40,7 @@ const Navbar = (props: Props) => {
             sx={{"&:hover": {color: palette.primary[100]}}}
             >
                 <Link
-                to="/dashboard"
+                to="/"
                 onClick={() => setSelected("dashboard")}
                 style={{
                     color: selected === "dashboard" ? "inherit" : palette.grey[700],

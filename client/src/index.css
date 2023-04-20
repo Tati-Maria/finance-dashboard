@@ -23,3 +23,14 @@ body,
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
