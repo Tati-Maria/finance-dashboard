@@ -18,9 +18,7 @@ This is a dashboard that displays transactions, products and Kpis. It is built u
 
 ## Images
 
-![Transactions]()
-![Products]()
-![KPIs]()
+![Screen Shot 2023-05-25 at 16 53 29](https://github.com/Tati-Maria/finance-dashboard/assets/107408196/b167fd3c-c8ab-447b-ab9b-3aaa34b8b9e1)
 
 ## Technologies
 
